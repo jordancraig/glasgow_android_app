@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory
+        android:title="Welcome!">
+		<Preference 
+		    android:title="About Glasgow Android"
+		    android:icon="@drawable/ic_about"
+		    android:summary="What is Glasgow Android?"
+		    android:key="about_pref"/>
+		<Preference 
+		    android:title="Our Blog"
+		    android:icon="@drawable/ic_social"
+		    android:summary="All the latest goings on."
+		    android:key="blog_pref"/>
+		<Preference 
+			android:title="Contact us"
+			android:icon="@drawable/ic_email"
+		    android:summary="Need to get in touch with us directly?"
+		    android:key="joinus_pref"/>
+		<Preference 
+		    android:title="Where is it?"
+		    android:summary="See the location of the venue."
+		    android:icon="@drawable/ic_map"
+		    android:key="maps_pref"/>
+		<Preference 
+		    android:title="Sponsors"
+		    android:icon="@drawable/ic_website"
+		    android:summary="Visit the guys making this possible!"
+		    android:key="sponsors_pref"/>
+		<Preference
+		    android:title="Follow us!"
+		    android:icon="@drawable/ic_social_follow"
+		    android:summary="Keep up to date via social networks"
+		    android:key="social_pref"/>
+	</PreferenceCategory>
+</PreferenceScreen>

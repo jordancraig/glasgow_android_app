@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory
+        android:title="Follow us on:">
+        <Preference
+            android:title="Google+"
+            android:key="google_pref"/>
+        <Preference
+            android:title="Twitter"
+            android:key="twitter_pref"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>
